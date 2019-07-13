@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="chapter.android.aweme.ss.com.homework">
+    package="com.example.wrapplication">
 
     <application
         android:allowBackup="true"
@@ -9,18 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity2_2"
+            android:screenOrientation="portrait"></activity><!--写死竖直APP-->
+        <activity android:name=".MainActivity2_1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Exercises1" />
-        <activity android:name=".Newpage" />
-        <activity android:name=".Exercises3" />
-        <activity android:name=".Exercises2" />
     </application>
 
 </manifest>
